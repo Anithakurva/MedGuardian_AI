@@ -29,9 +29,9 @@ st.title("🏥 MedGuardian AI")
 st.caption(
     "Intelligent Patient Monitoring and Early Warning System"
 )
-if st.button("🔄 Refresh Monitoring Data"):
+if st.button("🔄 Refresh Monitoring Data", key="refresh_data"):
     st.rerun()
-st.divider()
+st.divider() 
 
 # ==========================================
 # READ DATA
