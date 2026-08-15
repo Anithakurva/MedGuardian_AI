@@ -133,4 +133,45 @@ MedGuardian_AI/
 │
 ├── PROJECT_JOURNAL.md
 ├── requirements.txt
-└── README.md
+└── README.md  
+
+
+
+### 8. Web Monitoring Dashboard
+
+MedGuardian AI provides a Streamlit-based web dashboard for visualizing patient monitoring data.
+
+The dashboard displays:
+
+- Total patients monitored
+- Total monitoring records
+- Warning and high-risk counts
+- Patient-wise monitoring status
+- Risk distribution
+- Risk history
+- Patient movement history
+- Patient inactivity history
+- Recent monitoring records
+- Refresh monitoring data option   
+
+
+
+## How to Run
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt  
+
+
+### Run the Monitoring System
+
+```bash
+python src/dashboard/multi_patient_risk_monitor.py
+
+
+
+streamlit run app.py
+
+
+
